@@ -3,7 +3,8 @@ This web application is for all Animal Crossing fans to enjoy the much beloved m
 This project was completely inspired by my own love for Animal Crossing and the awesome community that has been built around it. 
 I wanted this to be made for the rest of the Animal Crossing community and keep it open source for the ability to have other's contribute.
 
-<br>The first iteration (MVP) of this is made by me and maintained by me. 🌟 I welcome any feedback and improvements! 🌟
+<br>The first iteration (MVP) of this is made by me and maintained by me. 
+<br>🌟 I welcome any feedback and improvements! 🌟
 
 # MVP
 The inital idea and concept of this application is to be able to view all of K.K Slider's songs and once a user clicks on their chosen song, the song will start playing. I really wanted to make good use of the artwork for each song as they are truly loved by players in the game.
