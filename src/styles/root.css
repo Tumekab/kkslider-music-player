@@ -1,0 +1,42 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+/* @import url('../assets/fonts/Fink-Heavy-Font/FinkHeavy.ttf'); */
+
+
+:root {
+    --primary-bg: #F3EEEB;
+    --secondary-bg: #39383D;
+    --controls-bar-bg: #2A292D;
+    --controls-btn-color: #E0DCDC;
+    --title-font-color: #FDCD51;
+    --title-font-stroke-color: #A36E3D;
+    --progress-bar-color:#66B888;
+
+    --font-mono: 'Oxygen Mono', monospace;
+    --font-title: 'FinkHeavy', cursive;
+
+    /* font sizes */
+    --fz-xxs: 12px;
+    --fz-xs: 13px;
+    --fz-sm: 14px;
+    --fz-md: 16px;
+    --fz-lg: 18px;
+    --fz-xl: 20px;
+    --fz-xxl: 22px;
+    --fz-heading: 32px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+body {
+    font-family: var(--font-mono);
+}
