@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# K.K.Slider Music Player 🎵
+This web application is for all Animal Crossing fans to enjoy the much beloved musician K.K.Slider's music online. Listen whilst you study, work or playing Animal Crossing for some cozy vibes. 
+This project was completely inspired by my own love for Animal Crossing and the awesome community that has been built around it. 
+I wanted this to be made for the rest of the Animal Crossing community and keep it open source for the ability to have other's contribute.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>The first iteration (MVP) of this is made by me and maintained by me. 
+<br>🌟 I welcome any feedback and improvements! 🌟
 
-## Available Scripts
+# MVP
+The inital idea and concept of this application is to be able to view all of K.K Slider's songs and once a user clicks on their chosen song, the song will start playing. I really wanted to make good use of the artwork for each song as they are truly loved by players in the game.
+### MVP Feature
+- A user will be able to pause/play.
+- Have the ability to skip forward and skip backwards.
+- Shuffle through the whole library of songs.
+- Be able to repeat a song.
 
-In the project directory, you can run:
+# Design
+Here is a mock up of the design that was created using Figma;
+![kkslider-design](https://user-images.githubusercontent.com/65959122/143422000-199330d7-a7f6-4782-a19b-abb1573cbb84.png)
+I wanted to keep it simple for the MVP so that I had a good base to improve upon.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+More details to follow...
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
