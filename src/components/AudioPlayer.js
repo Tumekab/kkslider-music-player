@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import {BsArrowLeftShort} from "react-icons/bs";
-import {BsArrowRightShort} from "react-icons/bs";
+import {BiSkipPrevious} from "react-icons/bi";
+import {BiSkipNext} from "react-icons/bi";
 import {FaPlay} from "react-icons/fa";
 import {FaPause} from "react-icons/fa";
 
@@ -12,21 +12,9 @@ const AudioPlayer = () => {
     }
 
     return (
-        <div>
-            <button className="forwardBackward">
-                <BsArrowLeftShort />
-            </button>
-
-            <button onClick={togglePlayPause} className="playPause">
-                {isPlaying ? <FaPause /> : <FaPlay />}
-            </button>
-
-            <button className="forwardBackward">
-                <BsArrowRightShort />
-            </button>
-
+        <div className="audioPlayer">
             {/* current time */}
-            <div>0:00</div>
+            <div className="currentTime">0:00</div>
 
             {/* sound progress bar */}
             <div>
@@ -34,8 +22,18 @@ const AudioPlayer = () => {
             </div>
 
             {/* duration */}
-            <div>1:49</div>
+            <div className="duration">1:49</div>
 
+            {/* player controls */}
+            <button className="forwardBackward">
+                <BiSkipPrevious />
+            </button>
+            <button onClick={togglePlayPause} className="playPause">
+                {isPlaying ? <FaPause /> : <FaPlay />}
+            </button>
+            <button className="forwardBackward">
+                <BiSkipNext />
+            </button>
             {/* shuffle */}
             {/* repeat */}
         </div>

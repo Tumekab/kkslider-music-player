@@ -10,7 +10,10 @@
     --controls-btn-color: #E0DCDC;
     --title-font-color: #FDCD51;
     --title-font-stroke-color: #A36E3D;
-    --progress-bar-color:#66B888;
+
+    --track-before-width: 100px;
+    --track-before-color: #66B888;
+    /* --selected-knob-color: # */
 
     --font-mono: 'Oxygen Mono', monospace;
     --font-title: 'FinkHeavy', cursive;

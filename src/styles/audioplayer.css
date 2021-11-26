@@ -1,14 +1,22 @@
+/* wraps the whole music player and controls */
 .audioPlayer {
     display: flex;
-    width: 700px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: var(--controls-bar-bg);
+    color: var(--controls-btn-color);
 }
 
+/* control buttons */
 .forwardBackward {
     background: none;
     border: none;
     display: flex;
     align-items: center;
-    font-size: var(--fz-xl);
+    margin-right: 1rem;
+    color: var(--controls-btn-color);
+    font-size: var(--fz-heading);
     cursor: pointer;
 }
 .forwardBackward:hover {
@@ -20,6 +28,107 @@
     border: none;
     width: 75px;
     height: 75px;
-    font-size: var(--fz-xxl);
+    color: var(--controls-btn-color);
+    font-size: var(--fz-heading);
     cursor: pointer;
+}
+.playPause:hover {
+    color: var(--progress-bar-color);
+}
+
+.currentTime,
+.duration {
+    padding: 0.5rem;
+}
+
+/* progress bar */
+
+input[type=range] {
+    appearance: none;
+    background: var(--secondary-bg);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 8px;
+    outline: none;
+}
+
+/* progress bar - safari */
+input[type=range]::-webkit-slider-runnable-track {
+    background: var(--secondary-bg);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 8px;
+    outline: none;
+}
+
+/* progress bar firefox */
+input[type=range]::-moz-range-track {
+    background: var(--secondary-bg);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 8px;
+    outline: none;
+}
+input[type=range]::-moz-focus-outer {
+    border: 0;
+}
+
+
+/* progress bar - chrome and safari */
+input[type=range]::before {
+    content: '';
+    height: 8px;
+    width: var(--track-before-width);
+    background-color: var(--track-before-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* progress bar firefox */
+input[type=range]::-moz-range-progress {
+    background-color: var(--track-before-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 8px;
+}
+
+/* progress bar knob chrome and safari */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-bg);
+    cursor: pointer;
+    position: relative;
+    margin: -1.56px 0 0 0;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+/* progress bar knob whilst dragging  */
+/* input[type=range]:active::-webkit-slider-thumb {
+
+} */
+
+/* progress bar knob firefox  */
+input[type=range]::-moz-range-thumb {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: var(--primary-bg);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
 }
