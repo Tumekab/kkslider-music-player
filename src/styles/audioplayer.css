@@ -1,0 +1,25 @@
+.audioPlayer {
+    display: flex;
+    width: 700px;
+}
+
+.forwardBackward {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: var(--fz-xl);
+    cursor: pointer;
+}
+.forwardBackward:hover {
+    color: var(--progress-bar-color);
+}
+
+.playPause {
+    background: none;
+    border: none;
+    width: 75px;
+    height: 75px;
+    font-size: var(--fz-xxl);
+    cursor: pointer;
+}
