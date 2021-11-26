@@ -38,5 +38,7 @@
   }
 
 body {
+  font-size: var(--fz-xs);
     font-family: var(--font-mono);
+    background-color: var(--primary-bg);
 }
