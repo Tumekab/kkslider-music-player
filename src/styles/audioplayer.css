@@ -14,11 +14,11 @@
     border: none;
     display: flex;
     align-items: center;
-    margin-right: 1rem;
     color: var(--controls-btn-color);
     font-size: var(--fz-heading);
     cursor: pointer;
 }
+
 .forwardBackward:hover {
     color: var(--progress-bar-color);
 }
@@ -26,14 +26,35 @@
 .playPause {
     background: none;
     border: none;
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
     color: var(--controls-btn-color);
     font-size: var(--fz-heading);
     cursor: pointer;
 }
+
 .playPause:hover {
     color: var(--progress-bar-color);
+}
+
+.shuffleRepeat {
+    background: none;
+    border: none;
+    width: 55px;
+    height: 55px;
+    padding: 1rem;
+    color: var(--controls-secondary-color);
+    font-size: var(--fz-xxl);
+    cursor: pointer;
+}
+
+.shuffleRepeat:hover{
+    color: var(--progress-bar-color);
+}
+/* for active too */
+
+.repeat {
+    margin-right: 1rem;
 }
 
 .currentTime,

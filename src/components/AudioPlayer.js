@@ -3,6 +3,8 @@ import {BiSkipPrevious} from "react-icons/bi";
 import {BiSkipNext} from "react-icons/bi";
 import {FaPlay} from "react-icons/fa";
 import {FaPause} from "react-icons/fa";
+import {IoShuffle} from "react-icons/io5"
+import {IoRepeat} from "react-icons/io5"
 
 const AudioPlayer = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -35,7 +37,13 @@ const AudioPlayer = () => {
                 <BiSkipNext />
             </button>
             {/* shuffle */}
+            <button className="shuffleRepeat">
+                <IoShuffle />
+            </button>
             {/* repeat */}
+            <button className="shuffleRepeat repeat">
+                <IoRepeat />
+            </button>
         </div>
     )
 }
