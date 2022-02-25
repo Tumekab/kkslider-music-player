@@ -7,7 +7,7 @@ I wanted this to be made for the rest of the Animal Crossing community and keep 
 <br>🌟 I welcome any feedback and improvements! 🌟
 
 # MVP
-The inital idea and concept of this application is to be able to view all of K.K Slider's songs and once a user clicks on their chosen song, the song will start playing. I really wanted to make good use of the artwork for each song as they are truly loved by players in the game.
+The inital idea and concept of this application is to be able to view all of K.K Slider's songs and once a user clicks on their chosen song, the song will start playing. I really wanted to make good use of the artwork for each song as they are truly loved by players of the game.
 ### MVP Feature
 - A user will be able to pause/play.
 - Have the ability to skip forward and skip backwards.
